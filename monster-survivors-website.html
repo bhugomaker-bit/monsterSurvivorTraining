@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monster Survivors - Exciting Online Survival Game</title>
+    <meta name="description" content="Play Monster Survivors online - an exciting survival game where you battle hordes of monsters in a thrilling adventure.">
+    <link rel="canonical" href="https://monstersurvivors.com/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        apple: {
+                            blue: '#007AFF',
+                            indigo: '#5856D6',
+                            purple: '#AF52DE',
+                            pink: '#FF2D55',
+                            red: '#FF3B30',
+                            orange: '#FF9500',
+                            yellow: '#FFCC00',
+                            green: '#34C759',
+                            teal: '#5AC8FA',
+                            gray: {
+                                100: '#F2F2F7',
+                                200: '#E5E5EA',
+                                300: '#D1D1D6',
+                                400: '#C7C7CC',
+                                500: '#AEAEB2',
+                                600: '#8E8E93',
+                                700: '#636366',
+                                800: '#48484A',
+                                900: '#3A3A3C',
+                            },
+                            dark: '#1C1C1E',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['SF Pro Display', 'Helvetica', 'Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        @media (max-width: 640px) {
+            .game-container {
+                height: 70vh;
+            }
+        }
+    </style>
+</head>
+<body class="bg-apple-gray-100 dark:bg-apple-dark text-apple-gray-900 dark:text-white font-sans">
+    <header class="bg-apple-blue text-white shadow-lg">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+            <div class="flex flex-col items-center md:items-start mb-4 md:mb-0">
+                <h1 class="text-3xl md:text-4xl font-bold tracking-tight">Monster Survivors</h1>
+                <p class="text-lg md:text-xl mt-2 text-white/90">Survive the endless waves of monsters in this thrilling adventure!</p>
+            </div>
+            <div class="flex space-x-4">
+                <a href="#play" class="bg-white text-apple-blue hover:bg-apple-gray-200 px-6 py-2 rounded-full font-bold transition-colors duration-300">Play Now</a>
+                <a href="#about" class="bg-transparent border-2 border-white hover:bg-white/10 px-6 py-2 rounded-full font-bold transition-colors duration-300">About</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        <section id="play" class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-blue dark:text-apple-teal">Play Monster Survivors Online</h2>
+            <div class="game-container w-full bg-black rounded-xl overflow-hidden shadow-xl border-4 border-apple-gray-800 h-[600px] md:h-[700px]">
+                <iframe src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" class="w-full h-full" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="mt-4 p-4 bg-apple-yellow/10 border-l-4 border-apple-yellow rounded-r-lg">
+                <p class="text-apple-gray-800 dark:text-apple-gray-200">For the best gaming experience, we recommend using a modern browser and playing in fullscreen mode.</p>
+            </div>
+        </section>
+
+        <section id="about" class="mb-12 bg-white dark:bg-apple-gray-900 rounded-xl p-6 shadow-lg">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-purple dark:text-apple-purple">About Monster Survivors</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div>
+                    <p class="text-lg mb-4">Monster Survivors is an exciting survival game where you must battle against endless waves of monsters. As you progress, you'll unlock new abilities, weapons, and power-ups to help you survive longer.</p>
+                    <p class="text-lg mb-4">The game features a unique roguelike experience where each playthrough is different. Collect experience points to level up and choose from a variety of upgrades to customize your character's abilities.</p>
+                    <p class="text-lg">How long can you survive against the monster hordes?</p>
+                </div>
+                <div class="space-y-4">
+                    <div class="bg-apple-gray-100 dark:bg-apple-gray-800 p-4 rounded-lg">
+                        <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-2">Game Features</h3>
+                        <ul class="list-disc pl-5 space-y-2">
+                            <li>Endless survival gameplay</li>
+                            <li>Multiple character abilities</li>
+                            <li>Roguelike progression system</li>
+                            <li>Various enemy types</li>
+                            <li>Exciting power-ups and weapons</li>
+                            <li>Increasing difficulty as you survive longer</li>
+                        </ul>
+                    </div>
+                    <div class="bg-apple-green/10 p-4 rounded-lg border-l-4 border-apple-green">
+                        <h3 class="font-bold text-xl text-apple-green mb-2">Controls</h3>
+                        <p>Use WASD or arrow keys to move your character. Attacks are automatic when enemies are in range.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-orange dark:text-apple-orange">Game Strategies</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-3">Early Game</h3>
+                    <p>Focus on movement speed and area damage abilities early on. Stay mobile and try to group enemies together to maximize your damage output.</p>
+                </div>
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-apple-purple dark:text-apple-purple mb-3">Mid Game</h3>
+                    <p>Balance your upgrades between offensive and defensive abilities. Look for synergies between different weapons and passive items.</p>
+                </div>
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md hover:shadow-lg transition-shadow duration-300">
+                    <h3 class="font-bold text-xl text-apple-red dark:text-apple-red mb-3">Late Game</h3>
+                    <p>Prioritize survival over aggression. Use the entire map to your advantage and don't get cornered by large groups of monsters.</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-apple-green dark:text-apple-green">Frequently Asked Questions</h2>
+            <div class="space-y-4">
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md">
+                    <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-2">Is Monster Survivors free to play?</h3>
+                    <p>Yes, Monster Survivors is completely free to play online through our website.</p>
+                </div>
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md">
+                    <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-2">Can I play on mobile devices?</h3>
+                    <p>Yes, Monster Survivors is optimized for both desktop and mobile play. The controls will automatically adapt to your device.</p>
+                </div>
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md">
+                    <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-2">How do I unlock new characters?</h3>
+                    <p>New characters can be unlocked by achieving specific milestones in the game, such as surviving for a certain amount of time or defeating special boss monsters.</p>
+                </div>
+                <div class="bg-white dark:bg-apple-gray-900 p-5 rounded-xl shadow-md">
+                    <h3 class="font-bold text-xl text-apple-blue dark:text-apple-teal mb-2">Does the game save my progress?</h3>
+                    <p>The game saves your unlocks and achievements in your browser's local storage. For the best experience, play on the same device and browser.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-apple-blue text-white mt-12">
+        <div class="container mx-auto px-4 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h2 class="text-2xl font-bold">Monster Survivors</h2>
+                    <p class="text-white/80">© 2023 MonsterSurvivors.com. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="#" class="hover:text-apple-gray-200 transition-colors duration-300">Privacy Policy</a>
+                    <a href="#" class="hover:text-apple-gray-200 transition-colors duration-300">Terms of Service</a>
+                    <a href="#" class="hover:text-apple-gray-200 transition-colors duration-300">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Check for dark mode preference
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark');
+        }
+
+        // Listen for changes in color scheme preference
+        window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', event => {
+            if (event.matches) {
+                document.body.classList.add('dark');
+            } else {
+                document.body.classList.remove('dark');
+            }
+        });
+    </script>
+</body>
+</html>
